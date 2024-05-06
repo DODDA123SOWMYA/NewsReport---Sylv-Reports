@@ -1,0 +1,39 @@
+nav {
+    z-index: 1000;
+    width: calc(100% - 50px);
+    height: 72px;
+    background-color: antiquewhite;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 50px;
+    list-style-type: none;
+}
+
+li {
+    width: 20vh;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding-inline: 5px;
+    padding-block: 10px;
+    cursor: pointer;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
